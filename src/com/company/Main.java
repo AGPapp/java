@@ -1,6 +1,6 @@
 public class Main {
-
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        double a = 36.187;
+        byte b = 127;
     }
 }
