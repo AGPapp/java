@@ -4,11 +4,11 @@ public class Za4 {
 
         Scanner in = new Scanner(System.in);
         System.out.println("Введите x: ");
-        int x = in.nextInt();
+        double x = in.nextDouble();
         System.out.println("Введите y: ");
-        int y = in.nextInt();
+        double y = in.nextDouble();
         System.out.println("Введите z: ");
-        int z = in.nextInt();
+        double z = in.nextInt();
         double sum = x + y + z;
         System.out.println(sum / 3);
         double round = (Math.floor((sum / 3)/2));

@@ -41,7 +41,7 @@ public class za6 {
                  default:
                      System.out.println("Меня задавило!!!");
              }}
-        else{
+        else if (vel == 2) {
                 System.out.println("Выберите единицу измерения: 1 - метр, 2 - миля, 3 - ярд, 4 - фут");
                 int ed2 = in.nextInt();
                 System.out.println("Введите число: ");
@@ -75,5 +75,7 @@ public class za6 {
                         System.out.println("Меня растянуло!!!");
                 }
              }
+        else {
+            System.out.println("Все сломалось");}
+        }
     }
-}
