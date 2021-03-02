@@ -8,7 +8,7 @@ public class Za4 {
         System.out.println("Введите y: ");
         double y = in.nextDouble();
         System.out.println("Введите z: ");
-        double z = in.nextInt();
+        double z = in.nextDouble();
         double sum = x + y + z;
         System.out.println(sum / 3);
         double round = (Math.floor((sum / 3)/2));
