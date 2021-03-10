@@ -7,11 +7,11 @@ public class Za10 {
         int x = in.nextInt();
         System.out.print("Индекс y: ");
         int y = in.nextInt();
-        int[][] myArray = new int[x][y];
+        double[][] myArray = new double[x][y];
         for (int i = 0; i < x; i++) {
             for (int j = 0; j < y; j++) {
                 System.out.print("Укажите значение " + (j + 1) + " строки " + (i + 1) + ": ");
-                myArray[i][j] = in.nextInt();
+                myArray[i][j] = in.nextDouble();
             }
         }
         for (int i = 0; i<y;i++){
