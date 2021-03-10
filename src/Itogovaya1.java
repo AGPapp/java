@@ -7,10 +7,8 @@ public class Itogovaya1 {
         System.out.print("Укажите количество рублей для конвертации: ");
         double rub = in.nextDouble();
         double kolvo = rub/kurs;
-        String kolvot = Double.toString(kolvo);
-        int x = kolvot.lastIndexOf('.');
-        System.out.println("Итого: " + kolvot.substring(0, (x+3)));
-;
-
+        System.out.println(kolvo*1000);
+        double st = Math.round (kolvo * 1000);
+        System.out.println("Итого: " + st/1000);
     }
 }
